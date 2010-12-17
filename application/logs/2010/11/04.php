@@ -1,0 +1,20 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2010-11-04 00:05:45 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 00:07:49 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 00:07:56 --- ERROR: ReflectionException [ -1 ]: Class controller_slogin does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 00:10:40 --- ERROR: Database_Exception [ 2002 ]: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ ~ MODPATH\database\classes\kohana\database\mysql.php [ 67 ]
+2010-11-04 00:11:01 --- ERROR: Kohana_View_Exception [ 0 ]: The requested view register could not be found ~ SYSPATH\classes\kohana\view.php [ 252 ]
+2010-11-04 00:11:13 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 00:43:12 --- ERROR: ErrorException [ 2048 ]: mktime() [function.mktime]: You should be using the time() function instead ~ MODPATH\loadlib\views\loadlibcss.php [ 9 ]
+2010-11-04 00:43:13 --- ERROR: ErrorException [ 2048 ]: mktime() [function.mktime]: You should be using the time() function instead ~ MODPATH\loadlib\views\loadlibcss.php [ 9 ]
+2010-11-04 00:59:55 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 01:00:12 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 01:30:40 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 01:31:12 --- ERROR: ReflectionException [ -1 ]: Class controller_news does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 01:32:30 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 15:47:27 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 15:47:38 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 15:47:56 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]
+2010-11-04 15:48:11 --- ERROR: ReflectionException [ -1 ]: Class controller_success_redirect does not exist ~ SYSPATH\classes\kohana\request.php [ 1094 ]

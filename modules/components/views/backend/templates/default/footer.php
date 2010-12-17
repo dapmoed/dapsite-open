@@ -1,0 +1,1 @@
+<div id="footer">	Все права защищены. Разработано специально для компании “Айти групп”<br/>	<strong>Powered by DapmoeD (Sloin)</strong></div>

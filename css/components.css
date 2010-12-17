@@ -1,0 +1,106 @@
+#component{
+}
+
+#toolbar{
+	background: rgba(166,193,201,0.4);
+	height: 47px;
+	width: 100%;
+	border-top: 1px solid #969696; 
+	border-bottom: 1px solid #969696; 
+	margin-top: 1px;
+}
+
+#menu_component{
+	float: left;
+	height: 47px;
+}
+
+#name_component{
+	font-size: 20px;
+	font-weight: bold;
+	color: #676666;
+	margin-top: 3px;
+	margin-left: 14px;
+	height: 22px;
+}
+
+#section_component{
+	height: 10px;
+}
+
+#section_component ul{
+	margin: 0px 0px 0px 50px;
+}
+
+#section_component ul li{
+	font-size: 13px;
+	float: left;
+	display: block;
+	list-style-image: none;
+	margin: 0px 15px 0px 0px;
+	font-weight: bold;
+	color: #818181;
+}
+
+#section_component ul li a{ 
+	text-decoration: none;
+	font-weight: bold;
+	color: #818181;
+}
+
+#section_component ul li a:hover{ 
+	color: #2b2727;
+}
+
+#section_component ul .active{
+	color: #000000;
+}
+
+#section_component ul .active a{
+	color: #000000;
+}
+
+#section_component ul .active a:hover{
+}
+
+#buttons{
+	float: right;
+	height: 47px;
+	margin: 0px 5px 0px 0px;
+}
+
+#buttons ul{
+	margin-top: 2px;
+}
+
+#buttons ul li{
+	float: right;
+	display: block;
+	list-style-image: none;
+	margin: 0px 0px 0px 5px;
+	overflow: hidden;
+	height: 43px;
+}
+
+#buttons ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 4px 0px 4px;
+}
+
+#buttons ul li a tr td:first-child{
+	display: block;
+	height: 24px;
+}
+
+#buttons ul li a:hover{
+	color: #2b2727;
+	background: rgba(0,0,0,0.05);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}

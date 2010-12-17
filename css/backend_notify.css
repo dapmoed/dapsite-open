@@ -1,0 +1,26 @@
+.notify_wraper{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.notify_wraper div{
+	height: 35px;
+	text-align: center;
+	font-size: 13px;
+	margin: 5px 0px 5px 0px;
+	line-height: 35px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.notify_wraper .warning{
+	border: 1px solid #7c6166;
+	background: #fbc4ce url(images/warning.png) top left no-repeat;
+	background-position: 3px 0px;
+}
+
+.notify_wraper .successfull{
+	border: 1px solid #82b34b;
+	background: #e1fdc2 url(images/succesfull.png) top left no-repeat;
+	background-position: 5px 0px;
+}

@@ -1,0 +1,318 @@
+body{
+	background: url(images/bg.gif) top left repeat;
+	font-family: Verdana, Arial;
+	min-width: 1024px;
+}
+/* Полоса в топе без панели */
+#header{
+	background:  url(images/background_top.png) top right no-repeat;
+	background: rgba(24,24,24,0.7) url(images/background_top.png) top right no-repeat;
+	height: 100px;
+	width: 100%;
+	border: 1px solid #a4a6a6;
+	
+	-pie-background: rgba(24,24,24,0.7);
+	behavior: url(/dapsite/css/PIE.php);
+}
+
+/* Лого */
+/* Название админки */
+#logo{
+	float: right;
+	font-size: 25px;
+	color: #ffffff;
+	margin: 12px 7px 0px 0px;
+}
+
+.admin_text_logo{
+	color: #000000;
+	font-weight: bold;
+}
+
+/* Показ пользователя */
+#user{
+	clear: both;
+	float: right;
+	color: #c5c5c3;
+	font-size: 12px;
+	margin: 12px 7px 0px 0px;
+}
+
+.user_text_logo{
+	color: #e1e1db;
+	font-weight: bold;
+	
+}
+
+/* Главное меню */
+#menu{
+	display: block;
+	position: absolute;
+	height: 77px;
+	width: 838px;
+	background: #000000 url(images/main_menu_gradient.png) top left repeat-x;
+	top: 0px;
+	left: 0px;
+	z-index: 5;
+	/* Скругленный нижний правый угол */
+	-webkit-border-bottom-right-radius: 25px;
+	-moz-border-radius-bottomright: 25px;
+	border-bottom-right-radius: 25px;
+	/* Тень */
+	box-shadow: 2px 2px 5px 0 #121111;
+	-webkit-box-shadow:2px 2px 5px 0 #121111;
+	-moz-box-shadow: 2px 2px 5px 0 #121111;
+	
+	border-bottom: 2px solid #4e4e4e;
+	border-right: 2px solid #4e4e4e;
+	
+	border-radius: 0px 0px 25px 0px;
+	behavior: url(/dapsite/css/PIE.php);
+}
+
+.bg_texture{
+	background: url(images/bg_texture.png) top left repeat;
+	width: 100%;
+	height: 55px;
+	padding: 12px 14px 14px 14px;
+}
+
+/* Левая часть - непосредственно  меню*/
+.left_div{
+	float: left;
+	height: 50px;
+	min-width: 660px;
+}
+
+.main_menu{
+	
+}
+
+.main_menu li{
+	display: block;
+	float: left;
+	border: 2px solid #2e2d2d;
+	margin: 0px 10px 0px 0px;
+	-webkit-border-radius: 20px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 20px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 20px;
+	border-top-left-radius: 0;
+	
+	border-radius: 0px 20px 20px 20px;
+	behavior: url(/dapsite/css/PIE.php);
+}
+
+.main_menu li .radius_block{
+	display: block;
+	height: 50px;
+	width: 152px;
+	overflow: hidden;
+	/* Скругленный  угол  */
+	-webkit-border-radius: 20px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 20px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 20px;
+	border-top-left-radius: 0;
+	
+	border-radius: 0px 20px 20px 20px;
+	behavior: url(/dapsite/css/PIE.php);
+}
+
+.main_menu li .shadow{
+	width: 152px;
+	height: 50px;
+	
+	-webkit-border-radius: 20px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 20px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 20px;
+	border-top-left-radius: 0;
+	
+	box-shadow:inset #0e0d0d 2px 2px 13px 2px;
+	-moz-box-shadow:inset #0e0d0d 2px 2px 13px 2px;
+	-webkit-box-shadow:inset #0e0d0d 2px 2px 13px 2px;	
+	cursor: pointer;
+	
+	border-radius: 0px 20px 20px 20px;
+	behavior: url(/dapsite/css/PIE.php);
+}
+
+.main_menu .mover .shadow{
+	background: #262626;
+}
+
+.main_menu .mover {
+	border: 2px solid #585757;
+}
+
+.main_menu .active .shadow{
+	background: #262626;
+}
+
+.main_menu .active {
+	border: 2px solid #585757;
+}
+
+.main_menu a{
+	text-decoration: none;
+}
+
+.menu_icon{
+	padding-left: 6px;
+	padding-top: 4px;
+	font-size: 11px;
+	line-height: 12px;
+	height: 100%;
+}
+
+
+.name_menu_element{
+	color: #ffffff;
+}
+
+.description_name_element{
+	font-size: 8px;
+	line-height: 8px;
+	color: #8b8b8b;
+	padding-left: 5px;
+	width: 95px;
+	margin-top: 5px;
+}
+
+
+/* Правая часть - выход, переход на сайт */
+.right_div{
+	float: right;
+	width: 113px;
+	height: 50px;
+	/* Скругленный нижний правый угол */
+	-webkit-border-bottom-right-radius: 25px;
+	-moz-border-radius-bottomright: 25px;
+	border-bottom-right-radius: 25px;
+	border: 2px solid #2e2d2d;
+	margin: 0px 25px 0px 0px;
+	
+	border-radius: 0px 0px 25px 0px;
+	behavior: url(/dapsite/css/PIE.php);
+}
+
+.right_div img{
+	margin: 9px 5px 5px 5px;
+}
+
+.inner_shadow{
+	width: 107px;
+	height: 50px;
+	box-shadow:inset #0e0d0d 5px 5px 13px 2px;
+	-moz-box-shadow:inset #0e0d0d 5px 5px 13px 2px;
+	-webkit-box-shadow:inset #0e0d0d 5px 5px 13px 2px;	
+	padding-left: 6px;
+		
+	behavior: url(/dapsite/css/PIE.php);
+}
+
+/* Подменю */
+#sub_menu{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	min-width: 200px;
+	height: 60px;	
+	display: block;
+	background: #1d1d1d;
+	z-index: 4;
+	/* Скругленный нижний правый угол */
+	-webkit-border-bottom-right-radius: 25px;
+	-moz-border-radius-bottomright: 25px;
+	border-bottom-right-radius: 25px;
+	
+	/* Тень */
+	box-shadow: 2px 2px 5px 0 #121111;
+	-webkit-box-shadow:2px 2px 5px 0 #121111;
+	-moz-box-shadow: 2px 2px 5px 0 #121111;
+	
+	border-bottom: 1px solid #4e4e4e;
+	border-right: 1px solid #4e4e4e;
+	
+	border-radius: 0px 0px 25px 0px;
+	behavior: url(/dapsite/css/PIE.php);
+}
+
+.ajax_loader{
+	position: relative;
+	background: url(images/ajax-loader.gif) top left no-repeat;
+	width: 220px;
+	height: 19px;
+	display: none;
+	top: 0px;
+	left: 0px;
+	padding-left: 20px;
+	color: #3f3e3e;
+	font-size: 15px;
+	line-height: 15px;
+}
+/* Линия показывающая какой пункт меню активен */
+#pointer_line{
+	position: absolute;
+	height: 2px;
+	top: 77px;
+	left: 0;
+	background: #6e6e6e;
+	margin-left: -20px;
+	z-index: 6;
+}
+/* Контейнер для подменю */
+#submenu_container{
+	width: 100%;
+	height: 100%;
+}
+#submenu_container ul{
+	margin-top: 5px;
+}
+
+/* Элемент подменю */
+#submenu_container ul li{
+	display: block;
+	float: left;
+	height: 34px;
+	padding-top: 6px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#submenu_container ul li:hover{
+	color: #676666;
+}
+
+.sub_menu_li{
+	overflow: hidden;
+}
+
+.sub_menu_li a{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left: 38px;
+}
+
+.sub_menu_li a:hover{
+	text-decoration: underline;
+}
+
+#footer{
+	width: 100%;
+	margin: 30px 0px 0px 0px;
+	text-align: center;
+	text-decoration: underline;
+	color:#3d3d3d;
+	font-size: 10px;
+}

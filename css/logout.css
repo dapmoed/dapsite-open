@@ -1,0 +1,88 @@
+body {
+	background: url(images/bg.gif);
+	font-family: Verdana, Arial;
+}
+
+#opacity_background{
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.53);
+	overflow: hidden;
+	z-index: 1;
+}
+/* Фоновый рисунок абстракция */
+#abstract{
+	background: url(images/bg_admin.gif) top left no-repeat;
+	width: 887px;
+	height: 717px;
+}
+
+/* Форма логина */
+#container{
+	z-index: 2;
+	position: fixed;
+	display: block;
+	width: 466px;
+	height: 360px;
+	border: 1px solid #2c2c2c;
+	/* Скругление углов */
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	/* Градиент */
+	background: #000 url(images/bg_gradient.png) repeat-x;
+	/* Тень */
+	box-shadow: 2px 2px 5px 0 #121111;
+	-webkit-box-shadow:2px 2px 5px 0 #121111;
+	-moz-box-shadow: 2px 2px 5px 0 #121111;
+
+}
+
+/* Текстура */
+.bg_texture{
+	display: block;
+	width: 360px;
+	height: 396px;
+	overflow: hidden;
+	background: url(images/bg_texture.png) top left repeat;	
+	padding: 13px 60px 0px 60px;
+}
+
+/* Тень заголовка логина */
+.name_form_login{
+	display: block;
+	text-shadow: 1px 1px 5px #1c1b1b;
+	font-size: 35px;
+	color: #b5b3b3;
+	text-transform: uppercase;
+	width: 360px;
+	text-align: center;
+	line-height: 45px;
+}
+
+#form_login{
+	display: block;
+	text-align: center;
+}
+
+/* Кнопка сабмита */
+#submit_button{
+	background: url(images/button_login.png) top left no-repeat;
+	width: 347px;
+	height: 50px;
+	border: none;
+	color: #b1afaf;
+	font-size: 16px;
+	line-height: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.user_name{
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff;
+}
